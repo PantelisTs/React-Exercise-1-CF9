@@ -11,7 +11,7 @@ const Layout = ({children, addClasses}: LayoutProps) => {
         <>
             <div className={addClasses}>
                 <Header/>
-                <main className="container mx-auto min-h-[95vh] pt-36">
+                <main className="w-full min-h-[95vh] pt-36 flex justify-center items-center gap-30">
                     {children}
                 </main>
                 <Footer/>
